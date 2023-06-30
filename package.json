@@ -1,0 +1,26 @@
+{
+  "name": "ts-loader-addmanglepropcommentstransformer",
+  "version": "1.0.0",
+  "description": "Any property with an access modifier that does not begin with an _ will be prefixed with Terser's @__MANGLE_PROP__ comment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Brandle",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnbrandle/ts-loader-addmanglepropcommentstransformer.git"
+  },
+  "keywords": [
+    "webpack",
+    "ts-loader",
+    "typescript",
+    "terser",
+    "mangle",
+    "@_MANGLE_PROP__"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
